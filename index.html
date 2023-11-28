@@ -6,86 +6,126 @@
     <meta name="description" content="My Resume">
     <meta name="keywords" content="egor, resume">
     <title>Egor resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <img src='https://sun9-62.userapi.com/impg/sl7UL3s5WxjSYm1_jN3xBAoztC5iY51aWWpRZQ/2f-Y8VAd3tA.jpg?size=1080x1440&quality=95&sign=561397af36ab0777f91ab99f928233ff&type=album' alt="Здесь должна быть моя аватарка. Если её нет, значит что-то пошло не так..."
-    width="290">
-    
-    <h1>Батраев Егор</h1>
+    <body>
+        <div class="container">
 
-    <hr size="9" noshade>
+            <div class="info">
 
-    <br>Я ученик онлайн-школы Resault School.
-    
-    <br>
+                <img src='https://sun9-68.userapi.com/impg/OrLCxw1GeZtSG4UF866idPg-PCq2uwPQdjSjKA/OUNIevx4jo8.jpg?size=640x640&quality=95&sign=ed2f74e5b5fb9a31b3126af1309f6a39&type=album' alt="Здесь должна быть моя аватарка. Если её нет, значит что-то пошло не так... :(" class="avatar">
+                
+                <div class="info-text">
 
-    <br>Мне <strong>нравится</strong> изучать програмирование. Так же я <em>люблю</em> изучать город, как в <strong><em>живую</em></strong>, так и на <strong><em>картах</em></strong>.
+                    <h1>Батраев Егор</h1>
+                
+                    <!-- <hr width="460" size="8" noshade> -->
 
-    <p>
-        <h2><strong>Мои соцсети:</strong></h2>
-    </p>
+                    <p>Я ученик онлайн-школы Resault School.</p>
+                    
+                    <p>Мне <strong>нравится</strong> изучать програмирование.</p>
+                    <p>Так же <em>люблю</em> изучать города, как в <strong><em>живую</em></strong>, так и на <strong><em>картах</em></strong>.</p>
+                </div>
 
-    <a href="https://vk.com/snakegourmand" target="_blank">VKontakte</a>
-    |
-    <a href="https://t.me/snakegourmand" target="_blank">TeleGramm</a>
-    
-    <p>
-        <h2>Мои хобби:</h2>
-    </p>
+            </div>
 
-    <ol>
-        <li>Изучать/серфить карты</li>
-        <li>Гулять по городу</li>
-        <li>Слушать музыку</li>
-        <li>Изучать програмирование</li>
-        <li>Интересоваться дизайоном</li>
-    </ol>
+            <br>
 
-    <h2>Опыт работы</h2>
+            <div class="card bg-lavender" >
+                <p>
+                    <h2><strong>Список социальных сетей:</strong></h2>
+                </p>
 
-    <table>
-        <tbody>
-            <tr>
-                <th>Название</th>
-                <th>Должность</th>
-                <th>Период</th>
-            </tr>
-        
-            <tr>
-                <td>Школьник</td>
-                <td>Ученик</td>
-                <td>2011 - 2023</td>
-            </tr>
+                <a href="https://vk.com/snakegourmand" target="_blank" class="btn">VKontakte</a>
+                |
+                <a href="https://t.me/snakegourmand" target="_blank" class="btn">Telegram</a>
+                |
+                <!-- <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                | -->
+                
+                <a href="https://github.com/snakegourmand" target="_blank" class="btn">GitHub</a>
+                <p></p>
+            </div>
 
-            <tr>
-                <td>Студент</td>
-                <td>Ученик</td>
-                <td>2023 - сейчас</td>
-            </tr>
-        </tbody>
-    </table>
 
-    <br>
-    <p><h2>Связаться мо мной</h2></p>
+            <div class="card bg-palegreen">
+                <p>
+                    <h2>Мои хобби:</h2>
+                </p>
 
-    <form>
-        <div>
-            <label for="name1">Ваше имя</label>
-            <input type="text" id="name1" placeholder="Введите своё имя">
+                <ol class="list">
+                    <li>Нравится сёрфить карты</li>
+                    <li>Люблю гулять по городу</li>
+                    <li>Кайфую от музыки</li>
+                    <li>Изучаю програмирование</li>
+                    <li>Интересуюсь дизайоном</li>
+                </ol>
+            </div>
+
+            <div class="card bg-lightsalmon">
+                <h2>Опыт работы</h2>
+
+                <table class="table">
+
+                    <tbody>
+
+                        <tr>
+                            <td>OZON</td>
+                            <td>Специалист по ВР</td>
+                            <td>2023 - 2023</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <div class="card bg-lemonchiffon">
+                
+                <p>
+                    <h2>Мои навыки</h2>
+                </p>
+
+                <ul class="link-list">
+                    <li><a href="https://lk.result.school/teach/control" target="_blank" class="btn2">Frontend разработка</a></li>
+                    <li>Дальше - больше :)</li>
+                </ul>
+
+            </div>
+
+            <div class="connect">
+            
+                <form action="/" class="form">
+
+                    <h2>Связаться мо мной</h2>
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="name1">Ваше имя</label>
+                            <input type="text" id="name1" placeholder="Введите своё имя">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email1">Ваш Email</label>
+                            <input type="email" id="email1" placeholder="Введите email">
+                        </div>
+
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="text1">Ваше сообщение</label>
+                        <textarea name="text" id="text1" cols="30" rows="1" placeholder="Введите текст"></textarea>
+                    </div>
+
+                    <input class="btn" type="submit" value="Отправить!">
+                    
+                </form>
+
+            </div>
+
         </div>
-        
-        <div>
-            <label for="email1">Ваш Email</label>
-            <input type="email" id="email1" placeholder="Введите email">
-        </div>
-        
-        <div>
-            <label for="text1">Ваше сообщение</label>
-            <textarea name="text" id="text1" cols="30" rows="10" placeholder="Введите текст"></textarea>
-        </div>
 
-        <input type="submit" value="Отправить!">
-    </form>
-
-</body>
+    </body>
 </html>
