@@ -28,6 +28,11 @@ body {
     display: flex;
 }
 
+/* .info h1 {
+    border-bottom: 7px solid grey;
+    padding-bottom: 25px;
+} */
+
 .info-text {
     margin-left: 40px;
 }
